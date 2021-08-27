@@ -19,11 +19,19 @@ module.exports = {
     //   TITLE: '四季人才-demo', // 网页标题
     //   // BASE: 'demo-mpa', // 当启用了vue-router时，可以定义history模式下的base路径
     // },
+    PRIVACY_AGREEMENT: {
+      ENTRY: './src/views/agreement/privacy/main.js',
+      TITLE: '四季人才-隐私政策', // 网页标题
+    },
     USER_AGREEMENT: {
       ENTRY: './src/views/agreement/user/main.js',
       TITLE: '四季人才-用户协议', // 网页标题
-      // BASE: 'demo-mpa', // 当启用了vue-router时，可以定义history模式下的base路径
     },
+    RELEASE_AGREEMENT: {
+      ENTRY: './src/views/agreement/release/main.js',
+      TITLE: '四季人才-岗位发布规则', // 网页标题
+    },
+    
     
   },
   PROJECT_NAME: PACKAGE_CONFIG.name, // 项目名，可以用于区分不同的工程（适用于多工程同项目）
