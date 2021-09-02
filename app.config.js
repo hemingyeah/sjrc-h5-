@@ -19,6 +19,11 @@ module.exports = {
     //   TITLE: '四季人才-demo', // 网页标题
     //   // BASE: 'demo-mpa', // 当启用了vue-router时，可以定义history模式下的base路径
     // },
+    WEB: {
+      ENTRY: './src/views/web/main.js',
+      TITLE: '四季人才', // 网页标题
+      BASE: 'web', // 当启用了vue-router时，可以定义history模式下的base路径
+    },
     PRIVACY_AGREEMENT: {
       ENTRY: './src/views/agreement/privacy/main.js',
       TITLE: '四季人才-隐私政策', // 网页标题
@@ -35,8 +40,6 @@ module.exports = {
       ENTRY: './src/views/agreement/businessLicense/main.js',
       TITLE: '四季人才-营业执照', // 网页标题
     },
-    
-    
   },
   PROJECT_NAME: PACKAGE_CONFIG.name, // 项目名，可以用于区分不同的工程（适用于多工程同项目）
   LIST_PAGE_SIZE: 30, // 列表数据的通用分页数

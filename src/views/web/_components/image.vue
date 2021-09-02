@@ -274,21 +274,21 @@ export default {
     },
     mutatedWidth() {
       // 是否为纯数字结尾
-      return String(this.width).match(/\d$/) ? this.width / 100 + 'rem' : this.width
+      return String(this.width).match(/\d$/) ? this.width + 'px' : this.width
     },
     mutatedHeight() {
       // 是否为纯数字结尾
-      return String(this.height).match(/\d$/) ? this.height / 100 + 'rem' : this.height
+      return String(this.height).match(/\d$/) ? this.height + 'px' : this.height
     },
     mutatedBackgroundSize() {
       return this.size.replace(/(\d+)(\D*)\s?/g, ($0, $1, $2) => {
-        if (!$2.trim()) return Number($1) / 100 + 'rem '
+        if (!$2.trim()) return Number($1) + 'px '
         return $0 + ' '
       })
     },
     mutatedBackgroundPosition() {
       return this.position.replace(/(\d+)(\D*)\s?/g, ($0, $1, $2) => {
-        if (!$2.trim()) return Number($1) / 100 + 'rem '
+        if (!$2.trim()) return Number($1) + 'px '
         return $0 + ' '
       })
     },
