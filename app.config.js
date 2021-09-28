@@ -35,6 +35,11 @@ module.exports = {
       ENTRY: './src/views/agreement/businessLicense/main.js',
       TITLE: '四季人才-营业执照', // 网页标题
     },
+    TALENT_AGREEMENT: {
+      ENTRY: './src/views/agreement/talentLicense/main.js',
+      TITLE: '四季人才-人才服务许可证', // 网页标题
+    },
+    
     
     
   },
