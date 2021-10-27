@@ -44,6 +44,10 @@ module.exports = {
       ENTRY: './src/views/agreement/talentLicense/main.js',
       TITLE: '四季人才-人才服务许可证', // 网页标题
     },
+    H5: {
+      ENTRY: './src/views/agreement/h5/main.js',
+      TITLE: '四季人才-h5', // 网页标题
+    },
   },
   PROJECT_NAME: PACKAGE_CONFIG.name, // 项目名，可以用于区分不同的工程（适用于多工程同项目）
   LIST_PAGE_SIZE: 30, // 列表数据的通用分页数
