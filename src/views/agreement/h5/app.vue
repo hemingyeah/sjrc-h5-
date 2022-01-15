@@ -14,7 +14,8 @@ export default {
     //     mask: true, // （有空实现），是否显示遮罩，阻止穿透点击
     //   })
     // }, 100)
-    window.location.href = 'weixin://dl/business/?t=ERkeT9lfEhq'
+    // window.location.href = 'weixin://dl/business/?t=ERkeT9lfEhq'
+    window.location.href = 'weixin://dl/business/?t=DLSy7x2IxEp'
   },
 }
 </script>
